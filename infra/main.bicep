@@ -27,7 +27,7 @@
 param prefix string = 'aibox'
 
 @description('Unique Suffix')
-param uniqueSuffix string = substring(uniqueString(resourceGroup().id),0,3)
+param uniqueSuffix string = 'ainick77'
 
 @description('Specifies the location of the Azure Machine Learning workspace and dependent resources.')
 param resourceLocation string = resourceGroup().location
