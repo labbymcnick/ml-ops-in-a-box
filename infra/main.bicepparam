@@ -1,7 +1,7 @@
 using 'main.bicep'
 
 param resourceLocation = 'eastus'
-param prefix = 'aibox'
+param prefix = 'aiboxxx'
 param amlworkspace = 'aibx-mlw'
 
 param aml_endpoint_name = 'aibx-mlw-endpoint'
