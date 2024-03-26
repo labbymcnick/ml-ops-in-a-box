@@ -165,7 +165,7 @@ module ag './modules/action_group.bicep' = {
   name: 'ag-${amlworkspace}'
   params: {
     actiongroupname: 'ag-${amlworkspace}'
-    functionappname: 'func-${amlworkspace}'
+    functionappname: 'func-nick77'
     functionappresourceid: functionApp.outputs.functionAppId
     groupshortname: length('ag-${amlworkspace}') <= 12 ? 'ag-${amlworkspace}' : take('ag-${amlworkspace}', 12)
     httpTriggerUrl: functionApp.outputs.functionAppUrl
