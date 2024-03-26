@@ -17,7 +17,7 @@ on:
       aml_workspace:
         description: 'Azure Machine Learning workspace name'
         required: true
-        default: 'aibx-mlw'
+        default: 'aibx2-mlw'
         type: string
 
 env:
